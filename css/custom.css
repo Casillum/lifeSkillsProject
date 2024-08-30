@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Roboto+Condensed&display=swap');
+.hov:hover {opacity:0.7}
+.bco-indigo {background-color:#284B63; color:white}
+.collapse{position:absolute}
+@media (max-width:55.95rem) {.collapse {position:static!important}}
+footer {
+    position:fixed!important;
+    left:0!important;
+    bottom:0!important;
+    width:100%;
+}
+body {min-height:100%}
+.top-non {top:0}
+.bebas-neue {
+    font-family: "Bebas Neue", sans-serif!important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif!important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-condensed {
+    font-family: "Roboto Condensed", sans-serif!important;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#content > a {
+    color:black!important
+}
+
+blockquote {
+    border-left:7px solid var(--green);
+    padding: 5px;
+    padding-left:20px;
+}
